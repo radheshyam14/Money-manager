@@ -1,0 +1,67 @@
+<%-include("partials/header.ejs")%>
+
+
+<div class="header">
+<h5><%=emailid%></h5>
+<a class="btn btn-primary btn-lg btn-sm" href="/" role="button">LogOut</a>
+</div>
+<div class="manager-page">
+
+  <div class="manage">
+
+  <h1 style="  color:#d63447;">Add Expenditures</h1>
+
+
+
+
+  <form class="new-expenditure" action="/manager" method="post">
+    <table>
+      <tr>
+      <input style="width:40%;display:inline-block" class="form-control" placeholder="Date" name="date"  class="textbox-n" type="text" onfocus="(this.type='date')">
+      </tr>
+      <tr>
+        <input style="width:40%;display:inline-block" class="form-control" type="value" name="expenditure_amt" placeholder="Enter Amount" value="">
+      </tr>
+      <tr>
+  <input  style="width:80%;margin-left:auto;margin-right:auto;display:block" class="form-control" type="text" name="reason" placeholder="Reason to Spend" value="">
+      </tr>
+    </table>
+
+
+
+  <button  style="margin:20px;background-color:#fa744f;" class="btn btn"  type="submit" name="button" value="<%=emailid%>">Add Expenditure</button>
+  </form>
+
+  </div>
+
+
+
+
+  <div class="display-expenditure">
+    <h3 style="color:#400082 ">Total Expenditure : ₹ <%=total_amount%></h3>
+    <table style="background-color:white;align:center">
+    <tr>
+       <th>Date</th><th>Amount</th><th>Reason</th>
+    </tr>
+      <% expenditures.forEach(function(expenditure){%>
+
+
+
+          <tr>
+          <td><%=expenditure.date %></td>
+          <td><%=expenditure.amount %></td>
+          <td><%=expenditure.reason %></td>
+          
+          </tr>
+
+      <%  })%>
+
+    </table>
+
+  </div>
+
+</div>
+
+
+
+<%-include("partials/footer.ejs")%>

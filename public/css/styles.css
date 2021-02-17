@@ -1,0 +1,232 @@
+html,body
+{
+  background-color:  #43d8c9;
+  width: 100%;
+}
+
+
+
+.nav-item a
+{
+
+}
+
+#home{
+background-color: #43d8c9;
+}
+
+.top-container
+{
+
+  text-align: center;
+}
+.head-text
+{
+  color:#d63447;
+  font-size: 5vw;
+
+}
+
+.mid
+{
+ background-color:  #edffea;
+ text-align: center;
+}
+
+
+.about
+{
+  background-color: #ffe75e;
+  margin-top: 60px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 70%;
+  height:auto;
+
+}
+
+.about-text
+{
+  margin-top: 30px;
+  width:90%;
+  border-radius: 10px;
+  background-color: #edffea;
+  display: inline-block;
+}
+
+.about-img
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  display:inline-block;
+}
+
+#contact
+{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ff6363;
+  width: 100%;
+  text-align: center;
+}
+
+.contact
+{
+  background-color: #ff6363;
+  margin-top: 60px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  float: center;
+  height:auto;
+
+}
+
+.contact-form
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+margin-bottom: 50px;
+  height: auto;
+
+ display: inline-block;
+}
+.contact-form input
+{
+
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+
+  display:block;
+}
+.contact-form textarea
+{
+  border-radius: 20px;
+  text-align: center;
+  display:block;
+}
+.contact-img
+{
+
+ text-align: center;
+ margin-bottom: 50px;
+
+display: inline-block;
+}
+
+.grp{
+  border: 5px solid black;
+}
+
+.register-page body
+{
+
+  background-color:  #43d8c9;
+}
+
+.lists-top
+{
+  height:50px;
+  width:100%;
+  background-color: #fa744f;
+}
+
+.create-list-form
+{
+  text-align: center;
+  margin-top: 20px;
+
+}
+.create-list-form input
+{
+  width:400px;
+  border-radius: 10px;
+}
+
+.manage
+{
+  font-family: sans-serif;
+  font-weight: bolder;
+
+  text-align: center;
+}
+.form-month
+{
+  margin: 50px;
+}
+
+.header
+{
+  background-color: #400082;
+  padding: 5px;
+  height: auto;
+  color:  #edffea;
+  display: block;
+}
+
+.header h3
+{
+  width:60%;
+   word-wrap: break-word;
+  display:inline-block;
+
+}
+
+.header a
+{
+  
+  float: right;
+  width: 20%
+  display: inline-block;
+
+}
+
+.display-expenditure
+{
+
+  text-align: center;
+}
+
+.display-expenditure th
+{
+  background-color: #ffe75e;
+}
+
+.display-expenditure tr
+{
+
+  background-color: #ff6363;
+}
+
+table
+{
+
+  border-radius:10px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+tr,th,td
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}

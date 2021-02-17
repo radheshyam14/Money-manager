@@ -1,0 +1,89 @@
+<%- include("partials/header.ejs") %>
+
+<nav style="margin-bottom:50px;background-color:#400082" class="navbar  navbar-expand-lg navbar-lg navbar-dark">
+  <a class="navbar-brand" href="#" style="color:#ececeb"> <b> Money Manager</b> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a style="border:2px solid white;" class="nav-link"class="btn btn-dark btn-lg" href="/register" role="button">Sign Up</a>
+      </li>
+      <li class="nav-item">
+        <a  style="border:2px solid white;" class="nav-link"class="btn btn-primary btn-lg" href="/login" role="button">Log In</a>
+      </li>
+    </ul>
+    </div>
+    </nav>
+
+    <div id="home" class="top-container">
+      <h1 class="head-text">Hey, Running Out Of Cash ?</h1>
+        <h1 style="font-size:4vw;color:#21bf73;">No Problem....</h1>
+        <h1 style="font-size:4vw;color:#d63447;">Come On Let's Manage It Together.</h1>
+        <img src="images/money.png" alt="" height="200px" width="200px">
+        <hr style="width:50%;color:blue;">
+        <a class="btn btn-dark btn-lg" href="/register" role="button">Register</a>
+        <a class="btn btn-primary btn-lg" href="/login" role="button">Login</a>
+    </div>
+
+  <div class="mid" id="about">
+
+    <div class="about" style="">
+
+    <h4 style="color:#fa744f">About</h4>
+<div class="about-text">
+  <p>Managing money is a complicated task. The reason being we ignore small expenses which sums up to a pool and makes a large difference in your personal accounting.
+Majority of times , the scenario being , we spend money and can't remember where we spended and for what did we spend the particular amount, so here our role comes into play which provide you the platform for tracking all your expenses on the ease of your fingertips with simply logging all your expenses and refer it whenever you need it.
+</p>
+
+<p>Your Security being our 1 st priority , that is the reason we register users with email and passwords which are authenticated in layers which includes hashing user passwords and then salting which makes it nearly impossible to retrive any user data.</p>
+</div>
+
+<div class="about-img">
+<img src="images/about-img.webp" alt="money image" width="60%" height="auto">
+</div>
+</div>
+</div>
+
+<div class="bottom" id="contact">
+<div class="contact">
+<h2>Contact The Developer</h2>
+
+  <div class="contact-form">
+    <form class="" action="mailto:marikbhatt@gmail.com" method="post">
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <input type="email" placeholder="Your email id">
+    <textarea name="name" rows="4" cols="50" placeholder="Write Your Message"></textarea>
+    <button class="btn btn-primary" type="submit" name="button">Send Message</button>
+    </form>
+  </div>
+
+  <div class="conatct-img">
+    <img  src="images/contact-img.png" alt="developer image" height="300px" width="400px" >
+   <div class="grp">
+    <h3 >By Group 4----</h3>
+    <h3 >Margik Bhatt - 19BCY10125</h3>
+    <h3 >Rituj Raghuvanshi - 19BCY10121</h3>
+    <h3 >Radheshyam Kumbhare - 19BCY10060</h3>
+    <h3 >Mihir Modi - 19BCY10002</h3>
+   </div>
+   
+   
+  </div>
+
+</div>
+
+</div>
+
+<%- include("partials/footer.ejs") %>
